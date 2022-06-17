@@ -1,0 +1,10 @@
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\bin\Release\netcoreapp2.1\FBS.Service.Common.deps.json
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\bin\Release\netcoreapp2.1\FBS.Service.Common.dll
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\bin\Release\netcoreapp2.1\FBS.Service.Common.pdb
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.csproj.AssemblyReference.cache
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.AssemblyInfoInputs.cache
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.AssemblyInfo.cs
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.csproj.CoreCompileInputs.cache
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.dll
+D:\DotNetProject\FlightBookingSystem\FBS.Service.Common\obj\Release\netcoreapp2.1\FBS.Service.Common.pdb

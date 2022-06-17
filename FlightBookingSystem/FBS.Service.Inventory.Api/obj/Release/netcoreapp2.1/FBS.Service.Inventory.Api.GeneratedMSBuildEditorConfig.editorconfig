@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = FBS.Service.Inventory.Api
+build_property.ProjectDir = D:\DotNetProject\FlightBookingSystem\FBS.Service.Inventory.Api\

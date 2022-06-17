@@ -1,0 +1,114 @@
+{
+  "ReRoutes": [
+    // Booking Management API
+    {
+      "DownstreamPathTemplate": "/api/flight/booking",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5001,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/bookticket",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/flight/booking/cancle",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5001,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/cancelticket",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/flight/booking/history",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5001,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/bookinghistory",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/flight/booking/details/{pnrNumber}",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5001,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/ticketdetails/{pnrNumber}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    //Flighy Search API
+    {
+      "DownstreamPathTemplate": "/api/flight/search",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5002,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/flightsearch",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //Inventory Management API
+    {
+      "DownstreamPathTemplate": "/api/flight/airline/register",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5003,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/airlineregister",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/flight/airline/getallairlines",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5003,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/allairlines",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/flight/airline/remove/{airlineId}",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5003,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/airlineremove/{airlineId}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/flight/airline/block/{airlineId}",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5003,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/airlineblock/{airlineId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/flight/airline/updateisinventory/{airlineId}",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5003,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/updateisinventory/{airlineId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/flight/airline/inventory/add",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5003,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/addinventory",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //User Management API
+    {
+      "DownstreamPathTemplate": "/api/user/register",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5005,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/userregister",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/authenticate",
+      "DownstreamScheme": "http",
+      "DownstreamPort": 5005,
+      "DownstreamHost": "localhost",
+      "UpstreamPathTemplate": "/userlogin",
+      "UpstreamHttpMethod": [ "Post" ]
+    }
+  ]
+}  
